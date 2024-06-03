@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders I3BottomSheet correctly should render I3BottomSheet with basic properties 1`] = `
+<Modal
+  animationIn="slideInUp"
+  animationOut="slideOutDown"
+  hasBackdrop={true}
+  isVisible={true}
+  onBackdropPress={[MockFunction]}
+  style={
+    {
+      "margin": 0,
+    }
+  }
+  useNativeDriverForBackdrop={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderTopLeftRadius": 16,
+        "borderTopRightRadius": 16,
+        "marginTop": "auto",
+        "padding": 16,
+        "paddingBottom": 40,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "height": 32,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 16,
+            "fontWeight": "600",
+            "textAlign": "center",
+          }
+        }
+      >
+        Modal Title
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../src/components/bottomSheet/assets/close.png",
+            }
+          }
+          style={
+            {
+              "height": 28,
+              "width": 28,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "height": 16,
+          "width": undefined,
+        }
+      }
+    />
+    <Text>
+      should render I3BottomSheet with basic properties
+    </Text>
+  </View>
+</Modal>
+`;
+
+exports[`renders I3BottomSheet correctly should render I3BottomSheet with useSwipeDown={true} and title="Modal Title" 1`] = `
+<Modal
+  animationIn="slideInUp"
+  animationOut="slideOutDown"
+  hasBackdrop={true}
+  isVisible={true}
+  onBackdropPress={[MockFunction]}
+  onSwipeComplete={[MockFunction]}
+  style={
+    {
+      "margin": 0,
+    }
+  }
+  swipeDirection="down"
+  useNativeDriverForBackdrop={true}
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+          "borderTopLeftRadius": 16,
+          "borderTopRightRadius": 16,
+          "marginTop": "auto",
+          "padding": 16,
+          "paddingBottom": 40,
+        },
+        {
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignSelf": "center",
+          "backgroundColor": "#000",
+          "borderRadius": 3,
+          "height": 5,
+          "width": 45,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "height": 32,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "height": 16,
+            "width": undefined,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "fontSize": 16,
+            "fontWeight": "600",
+            "textAlign": "center",
+          }
+        }
+      >
+        Modal Title
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "height": 16,
+          "width": undefined,
+        }
+      }
+    />
+    <Text>
+      should render I3BottomSheet with useSwipeDown=
+    </Text>
+  </View>
+</Modal>
+`;

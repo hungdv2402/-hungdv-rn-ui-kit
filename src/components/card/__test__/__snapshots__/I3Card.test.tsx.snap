@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders I3Card correctly should render I3Card with custom style 1`] = `
+<View
+  style={
+    [
+      {
+        "marginHorizontal": 16,
+      },
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 16,
+        "padding": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    should render I3Card with custom style
+  </Text>
+</View>
+`;
+
+exports[`renders I3Card correctly should render I3Card with padding={16} round={8} color="lightpink" 1`] = `
+<View
+  style={
+    [
+      undefined,
+      {
+        "backgroundColor": "lightpink",
+        "borderRadius": 8,
+        "padding": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    should render I3Card with padding=
+    16
+     round=
+    8
+     color="lightpink"
+  </Text>
+</View>
+`;

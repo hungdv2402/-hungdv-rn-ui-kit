@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders I3AlertModal correctly should render I3AlertModal with basic properties 1`] = `
+<Modal
+  animationIn="zoomIn"
+  animationOut="zoomOut"
+  hasBackdrop={true}
+  isVisible={false}
+  useNativeDriverForBackdrop={true}
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderRadius": 16,
+          "padding": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 16,
+            "fontWeight": "600",
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </Text>
+      <View
+        style={
+          {
+            "height": 16,
+            "width": undefined,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        subTitle
+      </Text>
+      <View
+        style={
+          {
+            "height": 40,
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "gap": 8,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
+              {
+                "alignItems": "center",
+                "backgroundColor": "#16AB89",
+                "borderRadius": 20,
+                "height": 40,
+                "justifyContent": "center",
+                "width": 130,
+              },
+              {
+                "backgroundColor": "#fff",
+                "borderColor": "#F0F0F0",
+                "borderWidth": 2,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#fff",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                },
+                {
+                  "color": "#606163",
+                },
+              ]
+            }
+          >
+            negativeText
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#16AB89",
+              "borderRadius": 20,
+              "height": 40,
+              "justifyContent": "center",
+              "width": 130,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#fff",
+                "fontSize": 14,
+                "fontWeight": "600",
+              }
+            }
+          >
+            positiveText
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

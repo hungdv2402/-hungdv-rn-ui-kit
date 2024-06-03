@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders I3Button correctly I3button with primaryType 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "orange",
+      "borderColor": "blue",
+      "borderRadius": 28,
+      "borderWidth": 2,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "700",
+          },
+          undefined,
+          undefined,
+          false,
+          {
+            "color": "blue",
+          },
+        ]
+      }
+    >
+      Submit
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders I3Button correctly I3button with secondaryType and Icon 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#fff",
+      "borderColor": "#16AB89",
+      "borderRadius": 28,
+      "borderWidth": 2,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/components/button/assets/close.png",
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "height": undefined,
+          "width": 8,
+        }
+      }
+    />
+    <Text
+      style={
+        [
+          {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "700",
+          },
+          {
+            "color": "#16AB89",
+          },
+          undefined,
+          false,
+          undefined,
+        ]
+      }
+    >
+      Submit
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders I3Button correctly I3button with thirdType and disabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EBEBEB",
+      "borderColor": "#EBEBEB",
+      "borderRadius": 28,
+      "borderWidth": 2,
+      "height": 56,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "700",
+          },
+          undefined,
+          {
+            "color": "#606163",
+          },
+          {
+            "color": "#919192",
+          },
+          undefined,
+        ]
+      }
+    >
+      Submit
+    </Text>
+  </View>
+</View>
+`;

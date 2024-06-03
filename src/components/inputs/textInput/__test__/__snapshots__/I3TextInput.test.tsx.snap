@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders I3TextInput correctly should render I3TextInput with label="Email" 1`] = `
+<View
+  style={
+    {
+      "alignSelf": "stretch",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "fontWeight": "400",
+        "paddingBottom": 8,
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    label="Email"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#B8B9BA"
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+          "borderColor": "#D3D3D4",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "minHeight": 53,
+          "paddingHorizontal": 16,
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;

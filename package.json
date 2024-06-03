@@ -1,0 +1,53 @@
+{
+  "name": "react-native-i3design-ui-kit",
+  "title": "React Native I3design Ui Kit",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.tsx",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-i3design-ui-kit.podspec"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:update": "jest -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.nal.vn/nal/common-packages/tt1/ui-kit-react-native.git",
+    "baseUrl": "https://gitlab.nal.vn/nal/common-packages/tt1/ui-kit-react-native"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "i3design.vn",
+    "email": "i3design@i3design.vn"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.1",
+    "@testing-library/react-native": "^12.4.4",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.67",
+    "@types/react-test-renderer": "^18.0.7",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "jest": "^29.7.0",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.6",
+    "react-native-modal": "^13.0.1",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2"
+  }
+}
